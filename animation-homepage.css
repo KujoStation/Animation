@@ -92,7 +92,12 @@ li{
     width: 4em;
     margin-left: 1em;
     margin-top: 0.75rem;
+    transition: 5s ease-out;
 
+}
+
+.trollface img:hover{
+    transform:rotate(2880deg);
 }
 /** navigation part in depth **/
 
@@ -111,6 +116,11 @@ li{
 .navigation li:hover{
     background-color: rgb(21, 21, 134);
     padding-left: 3em;
+}
+
+.navigation a{
+    color: white;
+    text-decoration: none; 
 }
 
 /** Sub categories in navigation list**/
