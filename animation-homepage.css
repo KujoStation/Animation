@@ -33,6 +33,8 @@ ul, li{
 li{
     line-height: 300%;
     padding-left: 1em;
+    padding-right:1em;
+    height:100%;
 }
 
 
@@ -59,12 +61,14 @@ li{
     grid-area: navigation;
     margin-left: -0.5em;
     padding:0;
+    height:100%;
+    background: linear-gradient(to bottom, #c2dbb8, #b9dfc58e);
 }
 
 .home-page{
     grid-area: home-page;
     padding-left: 3%;
-    background-color: #cccccc;
+    background: linear-gradient(to bottom, #c2dbb8, #b9dfc58e);
 }
 
 .footer{
@@ -98,8 +102,6 @@ li{
 .trollface img:hover{
     transform:rotate(2880deg);
 }
-/** navigation part in depth **/
-
 
 /** Main categories in navigation list **/
 .navigation ul{
@@ -157,9 +159,6 @@ li{
     padding-left:3em;
     z-index: 1;
 }
-
-
-/** main section part in depth **/
 
 /** footer part in depth **/
 .footer .background-image img{
