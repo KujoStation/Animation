@@ -14,15 +14,29 @@
     padding: 1em;
 }
 
+.skins{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(auto, 1fr);
+}
+
 .skins div img{
     height: 100%;
     width: 100%;
 }
 
+
 @media screen and (max-width: 800px){
     .skins{
         grid-template-columns: repeat(2, 1fr);
-        
+    }
+}
+=======
+@media screen and (max-width: 700px){
+    .skins{
+        grid-template-columns: repeat(2, 1fr);
+        padding: 1em;
+        padding-top: 0;
     }
     .home-page{
         padding:0;
