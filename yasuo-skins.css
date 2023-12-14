@@ -4,22 +4,16 @@
     color:rgb(111, 45, 199);
 }
 
-.home-page{
-    padding:0;
-}
-
 .skins{
     display:grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
-    padding: 1em;
-    padding-top: 0;
+    padding: 0 1em 2em 1em;
 }
 
 .skins{
     display:grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(auto, 1fr);
 }
 
 .skins div img{
@@ -37,8 +31,7 @@
 @media screen and (max-width: 700px){
     .skins{
         grid-template-columns: repeat(2, 1fr);
-        padding: 1em;
-        padding-top: 0;
+
     }
     .home-page{
         padding:0;

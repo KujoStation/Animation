@@ -65,7 +65,6 @@ li{
 
 .home-page{
     grid-area: home-page;
-    padding-left: 3%;
     background: linear-gradient(to bottom, #c2dbb8, #b9dfc58e);
 }
 
