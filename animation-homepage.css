@@ -34,7 +34,6 @@ li{
     line-height: 300%;
     padding-left: 1em;
     padding-right:1em;
-    height:100%;
 }
 
 
@@ -61,7 +60,6 @@ li{
     grid-area: navigation;
     margin-left: -0.5em;
     padding:0;
-    height:100%;
     background: linear-gradient(to bottom, #c2dbb8, #b9dfc58e);
 }
 
@@ -132,10 +130,13 @@ li{
     font-weight: normal;
 }
 
+.image{
+    position: relative;
+}
+
 .image img{
     height:50px;
     width: 100%;
-    z-index: -1;
     position: absolute;
     object-fit:cover;
     object-position: 0 30%;
@@ -146,7 +147,7 @@ li{
     color:transparent;
 }
 .image:hover img{
-    opacity: 1;
+    opacity: 100%;
     
 }
 #zed img, #thresh img, #leesin img{
