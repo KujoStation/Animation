@@ -21,7 +21,6 @@ ul{
     list-style-type: none;
     font-weight: bold;
     font-size: 30px;
-    position: sticky;
     top:4em;
     margin:0;
 }
