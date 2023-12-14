@@ -1,0 +1,47 @@
+.home-page h1{
+    margin: 0.2em 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.skins{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(auto, 1fr);
+}
+
+.skins div img{
+    height: 100%;
+    width: 100%;
+}
+
+@media screen and (max-width: 700px){
+    .skins{
+        grid-template-columns: repeat(2, 1fr);
+        padding: 1em;
+        padding-top: 0;
+    }
+    .home-page{
+        padding:0;
+    }
+
+    ul{
+        height: auto;
+    }
+
+}
+
+@media screen and (max-width: 500px){
+    .navigation{
+        background: linear-gradient(to bottom, #c2dbb8, #b9dfc58e);
+    }
+    
+    .skins{
+        grid-template-columns: 1fr;
+    }
+
+    ul{
+        position: relative;
+        margin-top: -4em;
+    }
+
+}
